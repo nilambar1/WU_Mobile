@@ -1,0 +1,37 @@
+[90m2024-10-17T10:39:16.888Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m username/accesskey not passed
+[90m2024-10-17T10:39:16.888Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-10-17T10:39:16.888Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-10-17T10:39:18.151Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"errorTraceId":"6aa90fc1-5a4c-4024-b5f0-0fc1a3bf4dac","message":"Access to BrowserStack denied due to incorrect credentials.","errorType":"ERROR_INVALID_CREDENTIALS"}
+[90m2024-10-17T10:39:18.152Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-10-17T10:39:38.383Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api-cloud.browserstack.com/app-automate/sessions/675b0f381dc52e0f0f639f646602ae91dd117edf.json
+[90m2024-10-17T10:39:38.829Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 675b0f381dc52e0f0f639f646602ae91dd117edf
+[90m2024-10-17T10:39:38.829Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/675b0f381dc52e0f0f639f646602ae91dd117edf.json with request body: 
+[90m2024-10-17T10:39:39.120Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 675b0f381dc52e0f0f639f646602ae91dd117edf
+[90m2024-10-17T10:39:39.121Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/675b0f381dc52e0f0f639f646602ae91dd117edf.json with request body: 
+[90m2024-10-17T10:39:39.468Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-17T10:39:39.468Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-10-17T10:39:39.469Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-10-17T10:39:39.469Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Accessibility after test hook. Before sending test stop event
+[90m2024-10-17T10:39:39.471Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId 675b0f381dc52e0f0f639f646602ae91dd117edf
+[90m2024-10-17T10:39:39.471Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api-cloud.browserstack.com/app-automate/sessions/675b0f381dc52e0f0f639f646602ae91dd117edf.json with request body: 
+[90m2024-10-17T10:39:39.751Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown started
+[90m2024-10-17T10:39:39.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown started
+[90m2024-10-17T10:39:39.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Shutting down request queue
+[90m2024-10-17T10:39:39.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind SHUTDOWN_QUEUE
+[90m2024-10-17T10:39:39.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 3
+[90m2024-10-17T10:39:39.753Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events failed 3
+[90m2024-10-17T10:39:39.753Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m shutdown ended
+[90m2024-10-17T10:39:39.753Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m teardown ended
+[90m2024-10-17T10:39:40.930Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-10-17T10:39:40.930Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Force request-queue shutdown, as test run event is received after teardown
+[90m2024-10-17T10:39:40.931Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 1, Queue length after removal = 0
+[90m2024-10-17T10:39:40.931Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m calling callback with kind INTERVAL_QUEUE
+[90m2024-10-17T10:39:40.931Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: called with events 1
+[90m2024-10-17T10:39:40.931Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m callback: marking events failed 1
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Missing Authentication Token/ Build ID
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m username/accesskey not passed
+[90m2024-10-17T10:39:41.049Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m If facing any issues, please contact BrowserStack support with the Build Run Id - a85bbfca-33c8-4523-bc94-cdc1f0e63ac7
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Uploading logs failed due to no credentials
+[90m2024-10-17T10:39:41.049Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - undefined
