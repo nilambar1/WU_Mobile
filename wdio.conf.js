@@ -1,3 +1,4 @@
+import allure from 'allure-commandline';
 export const config = {
     //
     // ====================
@@ -327,4 +328,36 @@ export const config = {
     */
     // afterAssertion: function(params) {
     // }
+    reporters: [
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: false,
+        }]
+        
+    ],
+    // ====================
+    // Hooks
+    // ====================
+    onPrepare: function (config, capabilities) {
+        
+        // Clean previous Allure results
+        allure(['generate', 'allure-results', '--clean']);
+    },
+
+    onComplete: function (exitCode, config, capabilities, results) {
+        //const allure = require('allure-commandline');
+        // Generate the Allure HTML report
+        const generation = allure(['generate', 'allure-results', '--clean', '-o', 'allure-report']);
+        generation.on('exit', function(exitCode) {
+            console.log('Allure report generation finished with exit code:', exitCode);
+        });
+    },
+
+    afterTest: function (test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            // Take a screenshot if a test fails
+            browser.takeScreenshot();
+        }
+    }
 }
